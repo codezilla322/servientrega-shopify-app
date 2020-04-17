@@ -1,0 +1,35 @@
+{
+  "name": "servientrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.4.0",
+    "dotenv": "^8.2.0",
+    "email-templates": "^7.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.0",
+    "nodemailer": "^6.4.2",
+    "nodemailer-sendgrid": "^1.0.3",
+    "nonce": "^1.0.4",
+    "pug": "^2.0.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "xml2js": "^0.4.23"
+  },
+  "_moduleAliases": {
+    "@config": "app/config",
+    "@libs": "app/libs",
+    "@routes": "app/routes",
+    "@models": "app/models"
+  }
+}
